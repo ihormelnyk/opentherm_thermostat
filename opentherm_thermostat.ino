@@ -60,7 +60,7 @@ const char HTTP_HTML[] PROGMEM = "<!DOCTYPE html>\
 </body>\
 </html>";
 
-void handleInterrupt() {
+void ICACHE_RAM_ATTR handleInterrupt() {
 	ot.handleInterrupt();
 }
 
